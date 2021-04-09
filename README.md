@@ -80,6 +80,7 @@ In order for the pipeline to be successful, you must ensure that you respect the
 
 ```bash
 bundle exec standardrb --fix   
+npx prettier --write .
 ```
 If some errors are printed it means that some of the different issues can not be corrected automatically. 
 Then you will need to correct them manually.

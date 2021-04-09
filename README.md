@@ -38,7 +38,7 @@ yarn
 Create the `.env` file:
 
 ```bash
-echo "LOCKBOX_MASTER_KEY=0000000000000000000000000000000000000000000000000000000000000000" > .env 
+echo "LOCKBOX_MASTER_KEY=0000000000000000000000000000000000000000000000000000000000000000" > .env
 ```
 
 ### Database / Cache
@@ -76,17 +76,20 @@ Visit https://github.com/hostolab/covidliste/blob/master/CONTRIBUTING.md
 </a>
 
 # Code formatting
+
 In order for the pipeline to be successful, you must ensure that you respect the linting made using
 
 ```bash
-bundle exec standardrb --fix   
+bundle exec standardrb --fix
 npx prettier --write .
 ```
-If some errors are printed it means that some of the different issues can not be corrected automatically. 
+
+If some errors are printed it means that some of the different issues can not be corrected automatically.
 Then you will need to correct them manually.
 
 In rubymine, please follow this procedure to add the formatter / linter directly in the editor tabs:
 https://www.jetbrains.com/help/ruby/rubocop.html#prerequisites
+
 # Testing
 
 To launch the tests locally, run:
